@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examenportfolio Software Developer</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            mermaid.initialize({
+                startOnLoad: true,
+                theme: 'neutral',
+                securityLevel: 'loose' // Helpt bij het lokaal openen van HTML-bestanden
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="werkprocessen.html">Werkprocessen</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="project-carousel">
+            <h2>Project showcase</h2>
+            <div class="carousel-inner" id="projectCarousel">
+                <article class="carousel-card">
+                    <div>
+                        <h3>DI-LAB Sphero BOLTS</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">IOT</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">OpenCV</span>
+                        </div>
+                        <p>Deze Demonstrator met de Sphero BOLTS biedt een interactieve ervaring met behulp van IOT-technologie en Python-programmering.</p>
+                    </div>
+                </article>
+                <article class="carousel-card">
+                    <div>
+                        <h3>Maeconomy Task Manager</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">UI</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
+                        </div>
+                        <p>Een overzichtelijk dashboard voor taken, deadlines en voortgang om informatie helder te presenteren voor teams en opdrachtgevers.</p>
+                    </div>
+                </article>
+                <article class="carousel-card">
+                    <div>
+                        <h3>The Challenge Zone Furhat</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">IOT</span>
+                            <span class="project-tag">AI</span>
+                            <span class="project-tag">Dashboard</span>
+                        </div>
+                        <p>Een interactieve omgeving voor het testen en evalueren van robotische toepassingen met focus op gebruikersinteractie en feedback.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
